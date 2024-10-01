@@ -1,4 +1,4 @@
-import ErrorRepository from './ErrorRepository';
+import ErrorRepository from './app.js';
 
 describe('ErrorRepository', () => {
   let errorRepository;

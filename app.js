@@ -1,4 +1,4 @@
-class ErrorRepository {
+export class ErrorRepository {
     constructor() {
       this.errors = new Map([
         [1, 'Character is already in the team'],
@@ -12,4 +12,3 @@ class ErrorRepository {
     }
   }
   
-  export default ErrorRepository;
